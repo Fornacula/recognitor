@@ -28,10 +28,6 @@ size_y=28
 position_x=45
 position_y=13
 
-
-# Define cropping dimensions (width x height + x-offset + y-offset)
-# crop_dimensions="300x200+100+50"
-
 # Crop the image 16 times (16 rows)
 for ((i=1; i<=16; i++)); do
   echo "Cropping row $i into $directory_path/row_$i.jpg..."
