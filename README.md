@@ -1,4 +1,5 @@
 # Introduction
+![](recognitor_intro.gif)
 When given a crossword puzzle where you need to search for words horizontally/vertically/diagonally, this tool might be of use.
 Make sure to check if the `slicer.sh` has correct pixel-sizing for extracting character-rows from an image to feet to Google
 Cloud Vision API.
