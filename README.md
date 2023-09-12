@@ -29,4 +29,4 @@ Images of rows are fed into a matrix and search for words:
 1. Omit execute rights to `start.sh` with `sudo chmod u+x start.sh`
 
 # Using the tool
-Just run `<python-virtual-env-path>/bin/python3 recognitor.py`
+Add your crossword image as `image.jpg` into the root folder of the project, adjust the pixels and repetitions in the `slicer.sh` to match the crossword line sizes and run `<python-virtual-env-path>/bin/python3 recognitor.py`.
