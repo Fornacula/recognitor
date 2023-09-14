@@ -1,13 +1,13 @@
 # Introduction
 ![](recognitor_intro.gif)
 When given a crossword puzzle where you need to search for words horizontally/vertically/diagonally, this tool might be of use.
-Make sure to check if the `slicer.sh` has correct pixel-sizing for extracting character-rows from an image to feet to Google
+Make sure to check if the `slicer.sh` has correct pixel-sizing for extracting character-rows from an image to feed to Google
 Cloud Vision API.
 
 ## Technologies used
 1. Python3 script
-1. Bash shell script
-1. Google Cloud Optical Character Recognition Cloud Vision API
+1. Bash script
+1. Google Cloud Vision OCR API
 
 Since Optical Character Recognition in Google Cloud tends to make significant mistakes when being
 fed with big image then need to slice the initial row-by-row. When Google scans only one row of the
